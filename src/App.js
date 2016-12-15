@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 class Heading extends Component {
@@ -62,5 +62,14 @@ class App extends Component {
     );
   }
 }
+
+App.propTypes = {
+  headings: React.PropTypes.array,
+  changeSets: React.PropTypes.array
+};
+
+App.defaultProps = {
+  headings: ['When happened ', 'Who did it', 'What they change']
+};
 
 export default App;
