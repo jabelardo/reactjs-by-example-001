@@ -24,6 +24,11 @@
 }
 
 .headingStyle {
+  text-align: center;
   background-color: FloralWhite;
   font-size: 19px;
+}
+
+.recentChangesTable {
+  text-align: center;
 }
